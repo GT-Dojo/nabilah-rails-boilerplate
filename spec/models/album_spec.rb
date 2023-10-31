@@ -12,4 +12,5 @@ RSpec.describe Album, type: :model do
   context 'association' do
     it { is_expected.to have_one(:artist_id)}
   end
+  
 end
